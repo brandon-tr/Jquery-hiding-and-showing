@@ -1,0 +1,15 @@
+img{
+  width:24.7%;
+  display: inline-block;
+}
+
+button{
+  background-color: green;
+  border: 3px solid black;
+  font-size: 40px;
+  color: white;
+}
+
+.hidden{
+  visibility: hidden;
+}

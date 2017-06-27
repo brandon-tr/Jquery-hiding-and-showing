@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jquery fun</title>
+    <script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('img').click(function(){
+          $(this).hide('slow');
+        });
+        $('button').click(function(){
+          $('img').show();
+        });
+
+      });
+    </script>
+  </head>
+  <body>
+    <div class="images">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+      <img src="http://bit.ly/2tgCoNZ" alt="">
+    </div>
+    <button type="button" name="button">Restore</button>
+  </body>
+</html>
